@@ -11,12 +11,23 @@ A simulação evidencia como pequenas variações nas condições iniciais podem
 O sistema de Lorenz é descrito por um conjunto de equações diferenciais não lineares:
 
 dx/dt = σ(y - x)
-
 dy/dt = x(ρ - z) - y
-
 dz/dt = xy - βz
 
 A partir dessas equações, o projeto realiza uma simulação numérica em tempo real, gerando uma representação visual tridimensional do comportamento caótico do sistema.
+
+---
+
+## 🖼️ Visualização
+
+<p align="center">
+  <img src="./assets/Lorenz.png" width="400"/>
+  <img src="./assets/Borboleta.png" width="400"/>
+</p>
+
+<p align="center">
+  <em>A simulação funciona como uma animação contínua (quase um vídeo em tempo real), onde a trajetória do sistema é construída progressivamente.</em>
+</p>
 
 ---
 
@@ -25,6 +36,25 @@ A partir dessas equações, o projeto realiza uma simulação numérica em tempo
 * JavaScript
 * p5.js
 * WEBGL (renderização 3D)
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/phsmontheiro-glitch/SEU-REPO-AQUI
+```
+
+2. Acesse a pasta do projeto:
+
+```
+cd SEU-REPO-AQUI
+```
+
+3. Abra o arquivo `index.html` no navegador
+   (ou utilize a extensão Live Server no VS Code)
 
 ---
 
