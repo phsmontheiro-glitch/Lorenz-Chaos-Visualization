@@ -11,7 +11,9 @@ A simulação evidencia como pequenas variações nas condições iniciais podem
 O sistema de Lorenz é descrito por um conjunto de equações diferenciais não lineares:
 
 dx/dt = σ(y - x)
+
 dy/dt = x(ρ - z) - y
+
 dz/dt = xy - βz
 
 A partir dessas equações, o projeto realiza uma simulação numérica em tempo real, gerando uma representação visual tridimensional do comportamento caótico do sistema.
